@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", Arial;
+}
+  button{
+  margin-top: 15px;
+    }
+    
+.Subscribe {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 20px;
+  transition: opacity 0.15s;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right:16px;
+  vertical-align: top;
+}
+
+.Subscribe:hover{
+  opacity:0.6;;
+}
+.Subscribe:active{
+  opacity: 0.3;
+}
+
+.Join{
+  background-color: white;
+  border-color: rgb(50, 100, 225);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(50, 100, 225) ;
+  border-radius: 5px;
+  margin-right:8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 1s,color 1s;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right:16px;
+  vertical-align: top;
+}
+.Join:hover{
+  background-color: rgb(50, 100, 225);
+color: white;
+}
+
+.tweet{
+background-color: rgb(45, 111, 244);
+color: white;
+border: none;
+border-radius: 17px;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+transition: box-shadow 1s;
+padding-top:10px ;
+padding-bottom: 10px;
+padding-left: 16px;
+padding-right:16px;
+vertical-align: top;
+}
+.tweet:hover{
+box-shadow: 10px 10px 10px rgba(0, 0, 0,0.55);
+
+}
